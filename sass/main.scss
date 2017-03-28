@@ -1,8 +1,8 @@
 body{
-    background-color: darkblue;
+    background-color: #2B879E;
     header {
-        background-color: blue;
-        margin-bottom: 25px;
+        background-color: #98D9B6;
+        margin-bottom: 10px;
         text-align: center;
         div {
             height: 30px;
@@ -14,9 +14,19 @@ body{
             display: inline-block;
         }
     }
+    .content{
+        background-color: #F2E8C4;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        text-align: center;
+        iframe {
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+    }
     footer {
-        margin-top: 25px;
-        background-color: blue;
+        margin-top: 10px;
+        background-color: #98D9B6;
         text-align: center;
         div{
             background-color: gray;
