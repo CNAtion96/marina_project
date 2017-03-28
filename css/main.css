@@ -1,0 +1,22 @@
+body {
+  background-color: darkblue; }
+  body header {
+    background-color: blue;
+    margin-bottom: 25px;
+    text-align: center; }
+    body header div {
+      height: 30px;
+      width: 30px;
+      background-color: gray;
+      display: inline-block; }
+    body header h1 {
+      display: inline-block; }
+  body footer {
+    margin-top: 25px;
+    background-color: blue;
+    text-align: center; }
+    body footer div {
+      background-color: gray;
+      height: 20px;
+      width: 20px;
+      display: inline-block; }
