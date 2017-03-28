@@ -10,8 +10,6 @@
     <link href="css/main.css" rel="stylesheet">
     <link href="css/boats.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-    
-
 </head>
 
 <body>
@@ -27,7 +25,6 @@
         </div>
         <nav class="col-md-6 rightHeader clearfix hidden-xs hidden-sm">
             <ul>
-                
                 <li><a href="admin.html">Your Dashboard</a></li>
             </ul>
         </nav>
@@ -38,35 +35,51 @@
     <div class="col-md-12 mainImage">
     </div>
 
+    <div class="container-fluid bottomLine">
+        <div class="col-md-12" id="boats">
+            
+        </div>
+    </div>
+
     <section class="col-md-12 jerk clearfix">
-            <div class="row footer">
-                <div class="col-md-3 footerleft">
-                    <h5>WHAT MAKES US DIFFERENT?</h5>
-                    <h6>FINANCING OPTIONS</h6>
-                    <h6>SCHEDULE A TEST DRIVE</h6>
-                    <H6>BOATS</H6>
-                </div>
-                <div class="col-md-3 footermiddle">
-                    <H5>CUSTOM BOATS</H5>
-                    <H6>MEET OUR DESIGNERS</H5>
+        <div class="row footer">
+            <div class="col-md-3 footerleft">
+                <h6><b>WHAT MAKES US DIFFERENT?</b></h6>
+                <h6>FINANCING OPTIONS</h6>
+                <h6>SCHEDULE A TEST DRIVE</h6>
+                <H6>BOATS</H6>
+            </div>
+            <div class="col-md-3 footermiddle">
+                <H6><b>CUSTOM BOATS</b></H6>
+                <H6>MEET OUR DESIGNERS</H5>
                     <H6>PREVIOUS CUSTOMER DESIGNS</H6>
-                    <H6>START YOUR DESIGN</H6>
-                </div>
-                <div class="col-md-6 footerright">
-                    <H5>STAY CONNECTED</H5>
-                    <div class="subscribe">
-                        <h6><strong>Subscribe for Updates</strong></h6>
-                        
-                        <form method="POST"  class="subscribe-form"> <input type="hidden" name="list">
+                <H6>START YOUR DESIGN</H6>
+            </div>
+            <div class="col-md-6 footerright">
+                <H5>STAY CONNECTED</H5>
+                <div class="subscribe">
+                    <h6><strong>Subscribe for Updates</strong></h6>
+                    <form method="POST" class="subscribe-form">
+                        <input type="hidden" name="list">
                         <div class="input-wrap">
                             <input type="text" class="subscribe-input" name="email" placeholder="Enter your email" tabindex="500">
-                            <input type="submit" value="Subscribe!" name="submit" class="submit" tabindex="501"></div>
-                        </form>
-                    </div>
-                    
+                            <input type="submit" value="Subscribe!" name="submit" class="submit" tabindex="501">
+                        </div>
+                    </form>
                 </div>
-                
-            </section>
+            </div>
+    </section>
+
+    <div id="cart" class="cart">
+            <h1>Cart</h1>
+            <div id="all">
+            </div>
+            <div class="total">
+                <h2>Total</h2>
+                <span class="right price">$<span id="total"></span></span>
+            </div>
+            <button>Checkout</button>
+        </div>
     <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
