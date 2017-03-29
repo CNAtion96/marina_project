@@ -16,6 +16,8 @@ body {
     margin-top: 0px;
     margin-bottom: 0px;
     text-align: center; }
+    body .content aside {
+      background-color: white; }
     body .content iframe {
       margin-top: 0px;
       margin-bottom: 0px; }
