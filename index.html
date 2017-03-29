@@ -8,13 +8,27 @@
         <link href="css/main.css" rel="stylesheet">
     </head>
     <body>
-        <div class="container-fluid row">
-            <header class="col-md-10 offset-md-1">
-                <div>
-                    <img>
+            <header class="container-fluid">
+                <div class="col-md-6 clearfix leftHeader">
+                    <a href="index.html"><img src="https://openclipart.org/image/2400px/svg_to_png/264480/GridCT-Boat-Symbol.png"></a>
+                    <ul class="hidden-xs hidden-sm">
+                        <li><a href="boats.html">Boats</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
                 </div>
-                <h1>Marina Name</h1>
+                <nav class="col-md-6 rightHeader clearfix hidden-xs hidden-sm">
+                    <ul>
+                        <li><a href="admin.html">Your Dashboard</a></li>
+                    </ul>
+                </nav>
+                <div class="hidden-md hidden-lg hidden-xl mobileMenu">
+                    <!-- <i class="fa fa-bars shoppingcart" aria-hidden="true"></i> -->
+                </div>
             </header>
+            <div class="col-md-12 mainImage">
+            </div>
             <div class="col-md-9 offset-md-2 content row">
                 <div class="posts col-md-8 offset-md-1">
                     <p>hi</p>
@@ -23,17 +37,34 @@
                     <h1>This is where the twitter stuff goes</h1>
                 </aside>
             </div>
-            <footer class="col-md-10 offset-md-1">
-                <div class="social">
-                    <img>
-                </div>
-                <div class="social">
-                    <img>
-                </div>
-                <div class="social">
-                    <img>
-                </div>
-            </footer>
+             <section class="col-md-12 jerk clearfix">
+                <div class="row footer">
+                    <div class="col-md-3 footerleft">
+                        <h6><b>WHAT MAKES US DIFFERENT?</b></h6>
+                        <h6>FINANCING OPTIONS</h6>
+                        <h6>SCHEDULE A TEST DRIVE</h6>
+                        <H6>BOATS</H6>
+                    </div>
+                    <div class="col-md-3 footermiddle">
+                        <H6><b>CUSTOM BOATS</b></H6>
+                        <H6>MEET OUR DESIGNERS</H5>
+                            <H6>PREVIOUS CUSTOMER DESIGNS</H6>
+                        <H6>START YOUR DESIGN</H6>
+                    </div>
+                    <div class="col-md-6 footerright">
+                        <H5>STAY CONNECTED</H5>
+                        <div class="subscribe">
+                            <h6><strong>Subscribe for Updates</strong></h6>
+                            <form method="POST" class="subscribe-form">
+                                <input type="hidden" name="list">
+                                <div class="input-wrap">
+                                    <input type="text" class="subscribe-input" name="email" placeholder="Enter your email" tabindex="500">
+                                    <input type="submit" value="Subscribe!" name="submit" class="submit" tabindex="501">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+            </section>
         </div>
         <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
