@@ -1,8 +1,6 @@
 *, button {
   font-family: 'Raleway', sans-serif; }
 
-<<<<<<< HEAD
-=======
 .content {
   display: inline-block; }
   .content .boatRow {
@@ -11,7 +9,6 @@
     .content .boatRow .repoTabLeft {
       display: inline-block; }
 
->>>>>>> master
 header {
   height: 85px; }
   header .leftHeader {
