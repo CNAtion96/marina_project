@@ -1,0 +1,38 @@
+body{
+    background-color: #2B879E;
+    header {
+        background-color: #98D9B6;
+        margin-bottom: 10px;
+        text-align: center;
+        div {
+            height: 30px;
+            width: 30px;
+            background-color: gray;
+            display: inline-block;
+        }
+        h1 {
+            display: inline-block;
+        }
+    }
+    .content{
+        background-color: #F2E8C4;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        text-align: center;
+        iframe {
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+    }
+    footer {
+        margin-top: 10px;
+        background-color: #98D9B6;
+        text-align: center;
+        div{
+            background-color: gray;
+            height: 20px;
+            width: 20px;
+            display: inline-block;
+        }
+    }
+}
