@@ -5,6 +5,15 @@
 
 
 
+.content{
+    display: inline-block;
+    .boatRow{
+        display: inline;
+        margin-right: 10px;
+        .repoTabLeft{
+            display: inline-block;
+            }}}
+
 
 header {
     height: 85px;
