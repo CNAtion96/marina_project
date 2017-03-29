@@ -1,14 +1,6 @@
 *, button {
   font-family: 'Raleway', sans-serif; }
 
-.bottomLine {
-  display: inline-block; }
-  .bottomLine .boatRow {
-    display: inline;
-    margin-right: 10px; }
-    .bottomLine .boatRow .repoTabLeft {
-      display: inline-block; }
-
 header {
   height: 85px; }
   header .leftHeader {
@@ -51,6 +43,13 @@ header {
   background-repeat: no-repeat;
   background-size: cover; }
 
+.content {
+  display: inline-block; }
+  .content .boatRow {
+    display: inline; }
+    .content .boatRow .repoTabLeft {
+      display: inline-block; }
+
 .jerk {
   padding-bottom: 80px;
   color: black;
@@ -89,7 +88,8 @@ header {
 
 .repoTabLeft {
   margin-top: 20px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  position: relative; }
 
 #product button {
   width: 100%;
@@ -111,13 +111,14 @@ header {
 
 span.text {
   position: absolute;
-  width: 341px;
-  top: 0;
+  height: 83%;
   padding: 24px;
   padding-bottom: 36px;
   padding-right: 32px;
   background-color: rgba(255, 255, 255, 0.9);
-  opacity: 0; }
+  opacity: 0;
+  top: 0;
+  left: 0; }
 
 .description {
   height: calc(100% - 100px);

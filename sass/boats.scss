@@ -4,17 +4,7 @@
 }
 
 
-.bottomLine{
-    display: inline-block;
-    .boatRow{
-        display: inline;
-        margin-right: 10px;
-        .repoTabLeft{
-            display: inline-block;
 
-        }
-    }
-}
 
 header {
     height: 85px;
@@ -69,6 +59,17 @@ header {
     background-size: cover;
 }
 
+.content{
+    display: inline-block;
+    .boatRow{
+        display: inline;
+        .repoTabLeft{
+            display: inline-block;
+
+        }
+    }
+}
+
 .jerk {
     padding-bottom: 80px;
     color: black;
@@ -108,6 +109,8 @@ header {
     margin: 0px auto;
 }
 
+
+
 .activityPic{
     height: 224px;
     width: 100%;
@@ -118,6 +121,7 @@ header {
 .repoTabLeft{
     margin-top: 20px;
     margin-bottom: 20px;
+    position: relative;
 }
 
 
@@ -145,13 +149,15 @@ header {
 
 span.text {
   position: absolute;
-  width: 341px;
-  top: 0;
+  height: 83%;
   padding: 24px;
   padding-bottom: 36px;
   padding-right: 32px;
   background-color: rgba(255, 255, 255, 0.9);
   opacity: 0;
+  top: 0;
+  left: 0;
+
 }
 
 .description {

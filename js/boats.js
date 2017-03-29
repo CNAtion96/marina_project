@@ -5,8 +5,8 @@ $.ajax({
         response.boats.forEach(function(boat) {
             $('#boats').append(`
 
-                <div class="row boatRow">
-                    <div id="info" class="col-md-3 repoTabLeft">
+                <div class="col-md-3 boatRow">
+                    <div id="info" class="repoTabLeft">
                         <div id="index">
                             <img  class="activityPic" src="${boat.picture}" alt="">
                         </div>
