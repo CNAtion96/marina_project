@@ -1,12 +1,12 @@
 *, button {
   font-family: 'Raleway', sans-serif; }
 
-.bottomLine {
+.content {
   display: inline-block; }
-  .bottomLine .boatRow {
+  .content .boatRow {
     display: inline;
     margin-right: 10px; }
-    .bottomLine .boatRow .repoTabLeft {
+    .content .boatRow .repoTabLeft {
       display: inline-block; }
 
 header {
