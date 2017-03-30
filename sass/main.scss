@@ -44,6 +44,18 @@ body{
         }
     }
 
+    .carousel{
+    height: 250px;
+    }
+
+    .companies{
+        padding-bottom: 20px;
+        .partnerCo{
+            text-align: center;
+            background: #EBF7F8;
+
+        }
+    }
     .mainImage {
         background-image: url('http://cdn.wallpapersafari.com/49/10/04nYtZ.jpg');
         width: 100%;
