@@ -1,4 +1,5 @@
-*, button {
+*,
+button {
   font-family: 'Raleway', sans-serif; }
 
 .content {
@@ -42,7 +43,7 @@ header {
           color: lightgrey; }
 
 .mainImage {
-  background-image: url("http://cdn.wallpapersafari.com/49/10/04nYtZ.jpg");
+  background-image: url("http://hdwallpaperbackgrounds.net/wp-content/uploads/2015/08/beach-boats-hd-wallpapers-desktop-boats-images-widescreen.jpg");
   width: 100%;
   height: 430px;
   background-attachment: fixed;
