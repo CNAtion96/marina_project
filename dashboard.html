@@ -6,38 +6,41 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
         <link href="css/main.css" rel="stylesheet">
-        <link href="css/contact.css" rel="stylesheet">
+        <link href="css/dashboard.css" rel="stylesheet">
     </head>
     <body>
-        <header class="container-fluid">
-            <div class="col-md-6 clearfix leftHeader">
-                <a href="index.html"><img src="https://openclipart.org/image/2400px/svg_to_png/264480/GridCT-Boat-Symbol.png"></a>
-                <ul class="hidden-xs hidden-sm">
-                    <li><a href="boats.html">Boats</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="about.html">About</a></li>
-                </ul>
+            <header class="container-fluid">
+                <div class="col-md-6 clearfix leftHeader">
+                    <a href="index.html"><img src="https://openclipart.org/image/2400px/svg_to_png/264480/GridCT-Boat-Symbol.png"></a>
+                    <ul class="hidden-xs hidden-sm">
+                        <li><a href="boats.html">Boats</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </div>
+                <nav class="col-md-6 rightHeader clearfix hidden-xs hidden-sm">
+                    <ul>
+                        <li><a href="admin.html">Your Dashboard</a></li>
+                    </ul>
+                </nav>
+                <div class="hidden-md hidden-lg hidden-xl mobileMenu">
+                    <!-- <i class="fa fa-bars shoppingcart" aria-hidden="true"></i> -->
+                </div>
+            </header>
+            <div class="col-md-12 mainImage">
             </div>
-            <nav class="col-md-6 rightHeader clearfix hidden-xs hidden-sm">
-                <ul>
-                    <li><a href="admin.html">Your Dashboard</a></li>
-                </ul>
-            </nav>
-            <div class="hidden-md hidden-lg hidden-xl mobileMenu">
-                <!-- <i class="fa fa-bars shoppingcart" aria-hidden="true"></i> -->
+            <div class="col-md-10 offset-md-1 content row">
+                <h2 class="col-md-12">New Blog Post</h2>
+                <form class="col-md-8 offset-md-2 row">
+                    <h5 class="col-md-11 offset-md-1">Title</h5>
+                    <input class="col-md-10 offset-md-1" type="text" id="title" placeholder="Title">
+                    <h5 class="col-md-11 offset-md-1">Description</h5>
+                    <textarea  class="col-md-10 offset-md-1" id="description" placeholder="Description"></textarea>
+                    <button class="col-md-2 offset-md-5" type="">Submit</button>
+                </form>
             </div>
-        </header>
-         <div class="col-md-12 mainImage">
-        </div>
-            <div class="container-fluid content">
-                <h3>Contact Us</h3>
-                <p>Call us: <span>(765)458-6431</span></p>
-                <p>Fax us: <span>(765)458-2435</span></p>
-                <p>Email us: <a href="mailto:jake@theironboatyard.com?subject=Feedback&body=Message">Jake@theironboatyard.com</a></p>
-                <script type="text/javascript" src="https://form.jotform.us/jsform/70855922139159"></script>
-            </div>
-            <section class="col-md-12 jerk clearfix">
+             <section class="col-md-12 jerk clearfix">
                 <div class="row footer">
                     <div class="col-md-3 footerleft">
                         <h6><b>WHAT MAKES US DIFFERENT?</b></h6>
@@ -65,6 +68,7 @@
                         </div>
                     </div>
             </section>
+        </div>
         <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>

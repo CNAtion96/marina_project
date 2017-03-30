@@ -1,0 +1,18 @@
+.content h2 {
+  text-align: center; }
+
+.content form {
+  background-color: #E1EEEF;
+  text-align: center;
+  height: 500px; }
+  .content form h5 {
+    margin-top: 20px;
+    text-align: left; }
+  .content form input {
+    display: block;
+    height: 30px; }
+  .content form textarea {
+    display: block;
+    height: 150px; }
+  .content form button {
+    height: 35px; }
