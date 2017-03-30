@@ -34,7 +34,8 @@
   margin: 0px auto; }
 
 .ceoHeadshot {
-  width: 100%; }
+  width: 100%;
+  border-radius: 50%; }
 
 .ceoBio {
   padding-bottom: 10px;
@@ -56,3 +57,20 @@
   .companies .partnerCo {
     text-align: center;
     background: #EBF7F8; }
+
+.leadersText {
+  margin: 0px auto;
+  text-align: center;
+  padding-top: 200px;
+  color: white;
+  font-size: 60px; }
+
+.ourPartners {
+  background: url("http://hdwallpaperbackgrounds.net/wp-content/uploads/2015/08/boat-tied-up-in-a-peaceful-harbor-hd-wallpapers.jpg");
+  width: 100%;
+  height: 430px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 20px; }

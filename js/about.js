@@ -14,6 +14,7 @@ jQuery(function() {
                     $('#weather').append(`
                 
                   <h4 class="snowstorm">${response.main.temp}℉</h4>
+
                           
               `);
                 }
@@ -32,3 +33,5 @@ jQuery(function() {
 });
 
 // response.forEach(function(weather) {
+
+    // <img src="${response.weather[0].icon} alt="">
