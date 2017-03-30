@@ -1,7 +1,8 @@
 (() => {
 
     if(localStorage.getItem('token')){
-       
+       window.location.replace("/dashboard.html");
+       $("#dashboard").html(`<a href="dashboard.html">Your Dashboard</a>`);
     }
     
     $("form").on('submit',(e)=>{
@@ -19,7 +20,6 @@
                 localStorage.setItem('token',result.token);
                 // Something should happen here
                 console.log(localStorage.getItem('token'));
-                window.location = "localhost:3000/dashboard.html";
         }});
     })
 })();

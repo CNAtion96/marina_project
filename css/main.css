@@ -76,3 +76,5 @@ body {
           font-size: 15px;
           background: red;
           color: white; }
+        body .jerk .footer .footerright .subscribe .number {
+          color: blue; }
