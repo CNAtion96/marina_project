@@ -34,7 +34,8 @@
   margin: 0px auto; }
 
 .ceoHeadshot {
-  width: 100%; }
+  width: 100%;
+  border-radius: 50%; }
 
 .ceoBio {
   padding-bottom: 10px;
