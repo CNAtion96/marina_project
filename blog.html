@@ -4,29 +4,31 @@
         <title></title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link href="css/main.css" rel="stylesheet">
         <link href="css/blog.css" rel="stylesheet">
     </head>
     <body>
-        <div class="container-fluid row">
-            <header class="top col-md-10 offset-md-1">
-                <div>
-                    <img>
-                </div>
-                <h1>Marina Name</h1>
-            </header>   
+        <header class="container-fluid navbar-fixed-top">
+        <div class="col-md-5 clearfix leftHeader">
+            <a href="index.html"><img src="https://openclipart.org/image/2400px/svg_to_png/264480/GridCT-Boat-Symbol.png"></a>
+            <ul class="hidden-xs hidden-sm">
+                <li><a href="boats.html">Boats</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
         </div>
-        <div class='container'>
-        <nav class='nav'>
+        <nav class="col-md-7 rightHeader clearfix hidden-xs hidden-sm">
             <ul>
-                <li>Home</li>
-                <li>Boats</li>
-                <li>About Us</li>
-                <li>Blog</li>
-                <li>Contact Us</li>
-                <li>Admin</li>
+                <li><a href="admin.html">Your Dashboard</a></li>
+                <li id="weather"></li>
             </ul>
         </nav>
+        <div class="hidden-md hidden-lg hidden-xl mobileMenu">
+            <!-- <i class="fa fa-bars shoppingcart" aria-hidden="true"></i> -->
+        </div>
+    </header>
             <h2>Boats,Boats,Boats</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,

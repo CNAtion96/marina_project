@@ -22,14 +22,6 @@ jQuery(function() {
         )
     }
 
-    // $('form').on("submit-weather", function(day) {
-
-    //     day.preventDefault();
-    //     var input = $('input').val();
-    //     $("#weather").html("");
-    //     getData(input);
-    // })
-
 });
 
 // response.forEach(function(weather) {
