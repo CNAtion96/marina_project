@@ -1,5 +1,7 @@
 body{
+    padding-top: 85px;
     header {
+        background: white;
         height: 85px;
         .leftHeader {
             margin: 0px auto;
@@ -11,7 +13,7 @@ body{
                 li {
                     display: inline;
                     margin-right: 20px;
-                    color: darkgrey;
+                    color: black;
                     font-size: 16px;
                     &:hover {}
                 }
@@ -30,9 +32,9 @@ body{
                 margin-bottom: 0;
                 li {
                     display: inline-block;
-                    padding: 30px 30px;
-                    border-right: .1rem solid #f1f1f1;
-                    color: darkgrey;
+                    padding: 24px 30px;
+                   
+                    color: red;
                     font-size: 16px;
                     &:hover {
                         color: lightgrey;
@@ -50,6 +52,7 @@ body{
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        margin-bottom: 20px;
     }
     .content{
         background-color: #F2E8C4;
