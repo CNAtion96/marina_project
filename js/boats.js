@@ -22,7 +22,7 @@ $.ajax({
                             </ul>
                             <span id="price">$<span id="num">${boat.price}</span></span>
                         </span>
-                        <button>Add to cart</button>
+                        <button class="learnmore">Request a Test Drive</button>
                     </div>
                 </div>
 
@@ -31,29 +31,24 @@ $.ajax({
     }
 });
 
-jQuery(function() {
 
-    getData("brookville indiana");
+// $('#myModal').modal(options)
 
-    function getData(city) {
+$("body").on('click', ".learnmore", function(){
+  var title = $(this).data("title");
+  var content = $(this).data("content");
+  
+  $(".modal-title").html(title);
+  $(".modal-body").html(content);
+  $('.modal').modal('toggle');
+  
+})
 
-        $.ajax({
-            url: `http://api.openweathermap.org/data/2.5/weather?q=${city}&mode=json&units=imperial&cnt=6&APPID=b5004642f125f0706b3f6d7616fa2635`,
-            success: function(response) {
-                console.log(response);
-                
-                    $('#weather').append(`
-                
-                  <h4 class="snowstorm">${response.main.temp}℉</h4>
 
-                          
-              `);
-                }
-            }
-        )
-    }
 
-});
+
+
+
 // <h4 class="charactername"><a href="${repo.html_url}">${repo.name}</a></h4>
 //               <h6 class="description">${repo.description}</h6>
 //               <h6 class="updatedAt">${moment(repo.updated_at).from()}</h6>
