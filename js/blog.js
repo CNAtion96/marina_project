@@ -21,4 +21,4 @@ $.ajax({
 }	);
 
 
-
+$(bodyColor).css(`background-color`, $(color));
