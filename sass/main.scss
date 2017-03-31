@@ -50,9 +50,17 @@ body{
     }
 
     .carousel{
-    height: 250px;
+    height: 300px;
     }
-
+    .carousel-inner {
+        height: 300px;
+        .item {
+            img {
+                max-height: 100%;
+                position: center;
+            }
+        }
+    }
     .companies{
         padding-bottom: 20px;
         .partnerCo{
@@ -78,13 +86,14 @@ body{
         background-color: rgba(255,255,255,.95);
         padding: 25px;
         aside {
-            border: 2px solid black;
+            padding: 0;
         }
         iframe {
             margin-top: 0px;
             margin-bottom: 0px;
         }
     }
+
     .jerk {
         padding-bottom: 80px;
         color: black;

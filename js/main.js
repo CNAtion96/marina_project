@@ -1,6 +1,31 @@
 if(localStorage.getItem('token')){
        $("#dashboard").html(`<a href="dashboard.html">Your Dashboard</a>`);
     }
+
+var activeSlide = 0;
+$(".left").click(function(){
+    if(activeSlide === 0){
+        activeSlide = 3;
+    } else {
+        activeSlide--;
+    }
+    $(".active").removeClass("active");
+    $(".item"+activeSlide).addClass("active");
+})
+
+$(".right").click(function(){
+    if(activeSlide === 3){
+        activeSlide = 0;
+    } else {
+        activeSlide++;
+    }
+    $(".active").removeClass("active");
+    $(".item"+activeSlide).addClass("active");
+})
+
+
+
+
 var token = localStorage.getItem('token');
 console.log(token);
 $.ajax({url: "https://tiyagencyweek.herokuapp.com/blogs",
@@ -8,7 +33,9 @@ $.ajax({url: "https://tiyagencyweek.herokuapp.com/blogs",
     headers:{X_CSRF_TOKEN: token},
     success: function(response){
         console.log(response);
-        response.blogs.forEach(function(blog){
+        var lastThree =response.blogs.slice(Math.max(response.blogs.length - 3, 0))
+        console.log(lastThree);
+        lastThree.forEach(function(blog){
             $(".posts").append(`
             <h2>${blog.title}</h2>
             <p>${blog.description}</p>
@@ -17,10 +44,6 @@ $.ajax({url: "https://tiyagencyweek.herokuapp.com/blogs",
     }
 
 })
-
-
-
-var lastThree =response.blogs.slice(Math.max(arr.length - 5, 1))
 
 jQuery(function() {
 
