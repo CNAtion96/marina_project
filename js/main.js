@@ -36,9 +36,10 @@ $.ajax({url: "https://tiyagencyweek.herokuapp.com/blogs",
         var lastThree =response.blogs.slice(Math.max(response.blogs.length - 3, 0))
         console.log(lastThree);
         lastThree.forEach(function(blog){
-            $(".posts").append(`
-            <h2>${blog.title}</h2>
+            $(".blogs").append(`
+            <h4>${blog.title}</h4>
             <p>${blog.description}</p>
+            <hr>
             `)
         })
     }

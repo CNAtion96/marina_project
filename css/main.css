@@ -34,8 +34,6 @@ body {
           padding: 24px 30px;
           color: red;
           font-size: 16px; }
-          body header .rightHeader ul li:hover {
-            color: lightgrey; }
   body .carousel {
     height: 300px; }
   body .carousel-inner {
@@ -64,6 +62,11 @@ body {
     text-align: left;
     background-color: rgba(255, 255, 255, 0.95);
     padding: 25px; }
+    body .content .posts .blogs {
+      padding: 15px;
+      background-color: #EBF7F8; }
+      body .content .posts .blogs h2 {
+        text-align: center; }
     body .content aside {
       padding: 0; }
     body .content iframe {
