@@ -13,7 +13,7 @@ $.ajax({
 		response.blogs.forEach(function(blog){
 			$('.content').append(`
 				<div class="blogs">
-			<h2>${blog.title}</h2>	
+			<h2 class="blogTitle">${blog.title}</h2>	
 			<p>${blog.description}</p>
             </div>`)
 		})
