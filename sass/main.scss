@@ -5,6 +5,7 @@ body{
         height: 85px;
         .leftHeader {
             margin: 0px auto;
+            position: relative;
             float: left;
             ul {
                 display: inline-block;
@@ -31,6 +32,7 @@ body{
         .rightHeader {
             margin: 0px auto;
             float: right;
+            position: relative;
             ul {
                 margin-left: 0;
                 float: right;
@@ -142,4 +144,28 @@ body{
             }
         }
     }
+}
+
+
+.nav{
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: .2s ease-in-out;
+    transition-duration: .2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: initial;
+}
+
+.headroom {
+    will-change: transform;
+    transition: transform .3s ease-in-out;
+}
+.headroom--pinned {
+    transform: translateY(0%);
+}
+.headroom--unpinned {
+    transform: translateY(-100%);
 }

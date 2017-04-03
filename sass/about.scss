@@ -1,6 +1,18 @@
 * {
     font-family: 'Raleway', sans-serif;
 }
+// .nav{
+//     z-index: 10;
+//     position: fixed;
+//     top: 0;
+//     left: 0;
+//     right: 0;
+//     // transition: .2s ease-in-out
+//     transition-property: all;
+//     transition-duration: .2s;
+//     transition-timing-function: ease-in-out;
+//     transition-delay: initial;
+// }
 
 
 
@@ -94,6 +106,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         margin-bottom: 20px;
+        transform: translatez(0);
     
 }
 
